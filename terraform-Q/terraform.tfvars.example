@@ -1,0 +1,11 @@
+# Exemplo de arquivo de variáveis para o projeto terraform-Q
+# Copie este arquivo para terraform.tfvars e ajuste os valores conforme necessário
+
+# Região AWS onde os recursos serão criados
+aws_region = "us-east-1"
+
+# Tipo da instância EC2 (t2.micro está no free tier)
+instance_type = "t2.micro"
+
+# Nome do projeto
+project_name = "terraform-Q"
