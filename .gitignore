@@ -1,0 +1,36 @@
+# Arquivos grandes
+*.zip
+q.zip
+amazon-q-cli.zip
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependências
+node_modules/
+
+# Arquivos de ambiente
+.env
+.env.local
+
+# AWS
+.aws-sam/
+*.pem
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporários
+*.tmp
+*.temp
